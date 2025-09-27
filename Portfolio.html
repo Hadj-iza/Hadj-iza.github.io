@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+  <style>
+    /* General Reset */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: #121212;
+      color: #eaeaea;
+      line-height: 1.6;
+    }
+
+    header {
+      background: #1f1f1f;
+      color: #fff;
+      text-align: center;
+      padding: 2.5rem 1rem;
+      border-bottom: 2px solid #00adb5;
+    }
+
+    header h1 {
+      margin-bottom: 0.5rem;
+      font-size: 2rem;
+      color: #00adb5;
+    }
+
+    nav {
+      margin-top: 1rem;
+    }
+
+    nav a {
+      margin: 0 15px;
+      color: #eaeaea;
+      text-decoration: none;
+      font-weight: 500;
+      transition: color 0.3s ease;
+    }
+
+    nav a:hover {
+      color: #00adb5;
+    }
+
+    section {
+      padding: 3rem 1rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    h2 {
+      text-align: center;
+      margin-bottom: 2rem;
+      color: #00adb5;
+      font-size: 1.8rem;
+    }
+
+    .skills, .projects {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1.5rem;
+      justify-content: center;
+    }
+
+    .card {
+      background: #1f1f1f;
+      padding: 1.5rem;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.4);
+      flex: 1;
+      min-width: 260px;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 6px 14px rgba(0,0,0,0.6);
+    }
+
+    .card h3 {
+      color: #00adb5;
+      margin-bottom: 0.5rem;
+    }
+
+    #contact a {
+      color: #00adb5;
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    #contact a:hover {
+      text-decoration: underline;
+    }
+
+    footer {
+      background: #1f1f1f;
+      color: #aaa;
+      text-align: center;
+      padding: 1.5rem;
+      margin-top: 2rem;
+      border-top: 2px solid #00adb5;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Hi, I'm Hadj Aissa BASLIMANE</h1>
+    <p>4th Year Computer Science Student | Bilingual (English & French)</p>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p style="text-align: center; max-width: 700px; margin: auto;">
+      I am a 4th-year Computer Science student with strong skills in problem-solving and programming. 
+      I speak English and French, and I am passionate about web development, databases, and learning new technologies. 
+      My goal is to work with international companies and grow as a developer.
+    </p>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <div class="skills">
+      <div class="card">C (Basics)</div>
+      <div class="card">Java (Basics)</div>
+      <div class="card">Python (Basics)</div>
+      <div class="card">HTML & CSS</div>
+      <div class="card">Databases (SQL)</div>
+      <div class="card">English & French (Bilingual)</div>
+    </div>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="projects">
+      <div class="card">
+        <h3>Portfolio Website</h3>
+        <p>A simple personal portfolio created using HTML & CSS.</p>
+      </div>
+      <div class="card">
+        <h3>Student Management System</h3>
+        <p>Basic project using SQL and Python to manage student data.</p>
+      </div>
+      <div class="card">
+        <h3>Restaurant Menu Website</h3>
+        <p>Static responsive website with menu sections (HTML & CSS).</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:hbaslimane2@gmail.com">hbaslimane2@gmail.com</a></p>
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/hadj-aissa-baslimane-516421290" target="_blank">linkedin.com/in/hadj-aissa-baslimane-516421290</a></p>
+    <p>GitHub: <a href="https://github.com/Hadj-iza" target="_blank">github.com/Hadj-iza</a></p>
+  </section>
+
+  <footer>
+    <p>© 2025 Hadj Aissa BASLIMANE | Made with HTML & CSS</p>
+  </footer>
+
+</body>
+</html>
